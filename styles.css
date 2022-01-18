@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(237, 199, 183);
+}
+
+.title {
+    text-align: center;
+}
+
+.recipe-list-wrapper {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 1100px;
+}
+
+.recipe-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 530px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(202, 160, 143, 0.7);
+}
+
+.recipe-link-title {
+    font-size: 20px;
+}
+
+.image.small {
+    height: 300px;
+    width: auto;
+}
